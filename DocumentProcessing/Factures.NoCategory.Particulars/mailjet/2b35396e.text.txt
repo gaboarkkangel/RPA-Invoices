@@ -1,0 +1,95 @@
+Bill To:
+
+ZENSTAR PRO, S.L. - B67130666 Calle Floridablanca, n98 Barcelona, 08015 ES
+
+Usage
+
+Usage Item
+
+Messages 2 May 2022 - 2 Jun 2022
+
+Billed From: Mailjet SAS
+
+Invoice
+
+Invoice Number Issue Date Due Date
+
+PAID
+
+#1981091 2 Jun 2022 2 Jun 2022
+
+€21,72 EUR
+
+Total
+
+Quantity
+
+466
+
+€0,00
+
+Amount
+
+€0,00
+
+Bronze Premium
+
+Plans
+
+Item
+
+Bronze Premium 2 Jun 2022 - 2 Jul 2022
+
+Billed From: Mailjet SAS
+
+Total
+
+Quantity
+
+1
+
+Subtotal VAT - Spain (ES): 21.0%
+
+SEGMENT TOTAL
+
+€21,72
+
+Amount
+
+€17,95
+
+€17,95 €3,77
+
+€21,72
+
+* All invoice dates listed above reflect a period of midnight to
+
+Subtotal
+
+midnight (UTC)
+
+Invoice History
+
+3 Jun 2022 5:21 PM UTC 2 Jun 2022 5:04 PM UTC
+
+2 Jun 2022 5:04 PM UTC 2 Jun 2022 5:04 PM UTC
+
+2 Jun 2022 5:03 PM UTC 2 Jun 2022 5:02 PM UTC
+
+2 Jun 2022 5:02 PM UTC
+
+VAT - Spain (ES): 21.0% GRAND TOTAL
+
+Payments DUE
+
+Credit card payment: €21,72 (Master, XXXX-XXXX-XXXX-5010) Invoice sent to jbargallo@tas-sl.es
+
+Credit card payment failed: €21,72 (Master, XXXX-XXXX-XXXX-5010) Issued consolidated invoice (Total: €21,72, Due: €21,72)
+
+Added invoice INV-1982178 for Bronze Premium (Total: €21,72, Due: €21,72) Added invoice INV-1981114 for Usage (Total: €0,00, Due: €0,00)
+
+Created consolidated invoice
+
+€17,95 €3,77 €21,72
+
+€21,72 €0,00
