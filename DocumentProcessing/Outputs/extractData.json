@@ -1,8 +1,1 @@
-﻿[{"empresa-proveedor":"Xfera Móviles S.A.U.,","num-factura":"01221D07974640","nif":"47418905N","titular":"AIDA CARBONELL NIUBÓ","fecha":"04-May-2022","subtotal":"38,84 €","total":"47,00 €"}]
-[{"empresa-proveedor":"Xfera Móviles S.A.U.,","num-factura":"01221D07974640","nif":"47418905N","titular":"AIDA CARBONELL NIUBÓ","fecha":"2022-05-04","subtotal":"38.84","total":"47.00"}]
-FacturaYoigo_Febrero_2022
-[{"empresa-proveedor":"Xfera Móviles S.A.U.,","num-factura":"01221D04770056","nif":"47418905N","titular":"AIDA CARBONELL NIUBÓ","fecha":"04-Mar-2022","subtotal":"38,84 €","total":"47,00 €"}]
-[{"empresa-proveedor":"Xfera Móviles S.A.U.,","num-factura":"01221D04770056","nif":"47418905N","titular":"AIDA CARBONELL NIUBÓ","fecha":"2022-03-04","subtotal":"38.84","total":"47.00"}]
-mailjet-jbargallo@tas-sl.es_02-2022
-[{"empresa-proveedor":"Mailjet SAS","num-factura":"#1360164","nif":"B67130666","titular":"ZENSTAR PRO, S.L. -","fecha":"2 Feb 2022","subtotal":"€17,95","total":"€21,72"}]
-[{"empresa-proveedor":"Mailjet SAS","num-factura":"#1360164","nif":"B67130666","titular":"ZENSTAR PRO, S.L. -","fecha":"2022-02-02","subtotal":"17.95","total":"21.72"}]
+﻿{"EMP-DIV":null,"FCH":"2022-03-01","FCH_REC":"2022-03-04","NUM_FAC_PRV":"01221D04770056","DES_INT":null,"PRV_CIF":"A-82528548","PRV_NOM":"Xfera Móviles S.A.U.,","PRV_TLF":"622 622 622","PRV_EML":null,"PRV_PAI":null,"PRV_LLOC":null,"PRV_CPS":null,"PRV_DIR":null,"OBS":null,"FPG":null,"POR_DTO":null,"PDF_URL":null,"PDF_NOM":null,"APL_RET_IRP":null,"PRE":"38.84","CAN":null,"DSC":null,"TIP_IVA":"21.00"}
