@@ -14,7 +14,7 @@
       "Fields": [
         {
           "FieldId": "Factura.Factura.Endesa.EMP-DIV",
-          "FieldName": "EMP-DIV",
+          "FieldName": "EMP_DIV",
           "IsMultiValue": false,
           "Type": "Number",
           "DeriveFieldsFormat": "",
@@ -36,7 +36,7 @@
           "FieldName": "FCH",
           "IsMultiValue": false,
           "Type": "Date",
-          "DeriveFieldsFormat": "",
+          "DeriveFieldsFormat": "dd/MM/yyyy",
           "Components": [],
           "SetValues": [],
           "Metadata": [
@@ -225,7 +225,7 @@
           "FieldId": "Factura.Factura.Endesa.PRV_CPS",
           "FieldName": "PRV_CPS",
           "IsMultiValue": false,
-          "Type": "Number",
+          "Type": "Text",
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
@@ -374,78 +374,72 @@
           ]
         },
         {
-          "FieldId": "Factura.Factura.Endesa.PRE",
-          "FieldName": "PRE",
+          "FieldId": "Factura.Factura.Endesa.LIN",
+          "FieldName": "LIN",
           "IsMultiValue": false,
-          "Type": "Number",
+          "Type": "Table",
           "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
+          "Components": [
             {
-              "Key": "Color",
-              "Value": "#88a6e6"
+              "FieldId": "Factura.Factura.Endesa.LIN.PRE",
+              "FieldName": "PRE",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
             },
             {
-              "Key": "Hotkey",
-              "Value": "4"
+              "FieldId": "Factura.Factura.Endesa.LIN.CAN",
+              "FieldName": "CAN",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "Factura.Factura.Endesa.LIN.POR_DTO",
+              "FieldName": "POR_DTO",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "Factura.Factura.Endesa.LIN.DSC",
+              "FieldName": "DSC",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "Factura.Factura.Endesa.LIN.TIP_IVA",
+              "FieldName": "TIP_IVA",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
             }
-          ]
-        },
-        {
-          "FieldId": "Factura.Factura.Endesa.CAN",
-          "FieldName": "CAN",
-          "IsMultiValue": false,
-          "Type": "Number",
-          "DeriveFieldsFormat": "",
-          "Components": [],
+          ],
           "SetValues": [],
           "Metadata": [
             {
               "Key": "Color",
-              "Value": "#fd15bc"
+              "Value": "#89a4db"
             },
             {
               "Key": "Hotkey",
-              "Value": "5"
-            }
-          ]
-        },
-        {
-          "FieldId": "Factura.Factura.Endesa.DES",
-          "FieldName": "DSC",
-          "IsMultiValue": false,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "Color",
-              "Value": "#81cdaa"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "6"
-            }
-          ]
-        },
-        {
-          "FieldId": "Factura.Factura.Endesa.TIP_IVA",
-          "FieldName": "TIP_IVA",
-          "IsMultiValue": false,
-          "Type": "Number",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "Color",
-              "Value": "#7c9ced"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "7"
+              "Value": "8"
             }
           ]
         }
@@ -464,7 +458,7 @@
       "Fields": [
         {
           "FieldId": "Factura.Factura.Yoigo.EMP-DIV",
-          "FieldName": "EMP-DIV",
+          "FieldName": "EMP_DIV",
           "IsMultiValue": false,
           "Type": "Number",
           "DeriveFieldsFormat": "",
@@ -486,7 +480,7 @@
           "FieldName": "FCH",
           "IsMultiValue": false,
           "Type": "Date",
-          "DeriveFieldsFormat": "",
+          "DeriveFieldsFormat": "dd.MM.yyyy",
           "Components": [],
           "SetValues": [],
           "Metadata": [
@@ -675,7 +669,7 @@
           "FieldId": "Factura.Factura.Yoigo.PRV_CPS",
           "FieldName": "PRV_CPS",
           "IsMultiValue": false,
-          "Type": "Number",
+          "Type": "Text",
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
@@ -768,7 +762,7 @@
         },
         {
           "FieldId": "Factura.Factura.Yoigo.PDF_URL",
-          "FieldName": "PDF_URL",
+          "FieldName": "PDF_B64",
           "IsMultiValue": false,
           "Type": "Text",
           "DeriveFieldsFormat": "",
@@ -824,8 +818,101 @@
           ]
         },
         {
-          "FieldId": "Factura.Factura.Yoigo.PRE",
-          "FieldName": "PRE",
+          "FieldId": "Factura.Factura.Yoigo.LIN",
+          "FieldName": "LIN",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "Factura.Factura.Yoigo.LIN.PRE",
+              "FieldName": "PRE",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "Factura.Factura.Yoigo.LIN.CAN",
+              "FieldName": "CAN",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "Factura.Factura.Yoigo.LIN.POR_DTO",
+              "FieldName": "POR_DTO",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "Factura.Factura.Yoigo.LIN.DSC",
+              "FieldName": "DSC",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "Factura.Factura.Yoigo.LIN.TIP_IVA",
+              "FieldName": "TIP_IVA",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "Factura.Factura.Yoigo.LIN.APL_RET_IRP",
+              "FieldName": "APL_RET_IRP",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#f3bd22"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "Factura.Factura.Amazon",
+      "Group": "Factura",
+      "Category": "Factura",
+      "Name": "Amazon",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Factura.Factura.Amazon.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Factura.Factura.Amazon.EMP-DIV",
+          "FieldName": "EMP_DIV",
           "IsMultiValue": false,
           "Type": "Number",
           "DeriveFieldsFormat": "",
@@ -834,36 +921,55 @@
           "Metadata": [
             {
               "Key": "Color",
-              "Value": "#88a6e6"
+              "Value": "#038a18"
             },
             {
               "Key": "Hotkey",
-              "Value": "4"
+              "Value": "e"
             }
           ]
         },
         {
-          "FieldId": "Factura.Factura.Yoigo.CAN",
-          "FieldName": "CAN",
+          "FieldId": "Factura.Factura.Amazon.FCH",
+          "FieldName": "FCH",
           "IsMultiValue": false,
-          "Type": "Number",
-          "DeriveFieldsFormat": "",
+          "Type": "Date",
+          "DeriveFieldsFormat": "dd/MM/yyyy",
           "Components": [],
           "SetValues": [],
           "Metadata": [
             {
               "Key": "Color",
-              "Value": "#fd15bc"
+              "Value": "#fa6616"
             },
             {
               "Key": "Hotkey",
-              "Value": "5"
+              "Value": "c"
             }
           ]
         },
         {
-          "FieldId": "Factura.Factura.Yoigo.DES",
-          "FieldName": "DSC",
+          "FieldId": "Factura.Factura.Amazon.FCH_REC",
+          "FieldName": "FCH_REC",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "dd/MM/yyyy",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ]
+        },
+        {
+          "FieldId": "Factura.Factura.Amazon.NUM_FAC_PRV",
+          "FieldName": "NUM_FAC_PRV",
           "IsMultiValue": false,
           "Type": "Text",
           "DeriveFieldsFormat": "",
@@ -872,17 +978,150 @@
           "Metadata": [
             {
               "Key": "Color",
-              "Value": "#81cdaa"
+              "Value": "#6eb84a"
             },
             {
               "Key": "Hotkey",
-              "Value": "6"
+              "Value": "m"
             }
           ]
         },
         {
-          "FieldId": "Factura.Factura.Yoigo.TIP_IVA",
-          "FieldName": "TIP_IVA",
+          "FieldId": "Factura.Factura.Amazon.DES_INT",
+          "FieldName": "DES_INT",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e422cf"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ]
+        },
+        {
+          "FieldId": "Factura.Factura.Amazon.PRV_CIF",
+          "FieldName": "PRV_CIF",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#939adf"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ]
+        },
+        {
+          "FieldId": "Factura.Factura.Amazon.PRV_NOM",
+          "FieldName": "PRV_NOM",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#c227bd"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ]
+        },
+        {
+          "FieldId": "Factura.Factura.Amazon.PRV_TLF",
+          "FieldName": "PRV_TLF",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#c47ea5"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ]
+        },
+        {
+          "FieldId": "Factura.Factura.Amazon.PRV_EML",
+          "FieldName": "PRV_EML",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#1cc482"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "w"
+            }
+          ]
+        },
+        {
+          "FieldId": "Factura.Factura.Amazon.PRV_PAI",
+          "FieldName": "PRV_PAI",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#38dcff"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ]
+        },
+        {
+          "FieldId": "Factura.Factura.Amazon.PRV_LLOC",
+          "FieldName": "PRV_LLOC",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#95b597"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "y"
+            }
+          ]
+        },
+        {
+          "FieldId": "Factura.Factura.Amazon.PRV_CPS",
+          "FieldName": "PRV_CPS",
           "IsMultiValue": false,
           "Type": "Number",
           "DeriveFieldsFormat": "",
@@ -891,11 +1130,224 @@
           "Metadata": [
             {
               "Key": "Color",
-              "Value": "#7c9ced"
+              "Value": "#e0c56d"
             },
             {
               "Key": "Hotkey",
-              "Value": "7"
+              "Value": "g"
+            }
+          ]
+        },
+        {
+          "FieldId": "Factura.Factura.Amazon.PRV_DIR",
+          "FieldName": "PRV_DIR",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb89f"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "j"
+            }
+          ]
+        },
+        {
+          "FieldId": "Factura.Factura.Amazon.OBS",
+          "FieldName": "OBS",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#5ad5c5"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "k"
+            }
+          ]
+        },
+        {
+          "FieldId": "Factura.Factura.Amazon.FPG",
+          "FieldName": "FPG",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#76a077"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "z"
+            }
+          ]
+        },
+        {
+          "FieldId": "Factura.Factura.Amazon.POR_DTO",
+          "FieldName": "POR_DTO",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d9a385"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "x"
+            }
+          ]
+        },
+        {
+          "FieldId": "Factura.Factura.Amazon.PDF_URL",
+          "FieldName": "PDF_URL",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#44b4ff"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "1"
+            }
+          ]
+        },
+        {
+          "FieldId": "Factura.Factura.Amazon.PDF_NOM",
+          "FieldName": "PDF_NOM",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#4cbde8"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "2"
+            }
+          ]
+        },
+        {
+          "FieldId": "Factura.Factura.Amazon.APL_RET_IRP",
+          "FieldName": "APL_RET_IRP",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e66b95"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "3"
+            }
+          ]
+        },
+        {
+          "FieldId": "Factura.Factura.Amazon.LIN",
+          "FieldName": "LIN",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "Factura.Factura.Amazon.LIN.PRE",
+              "FieldName": "PRE",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "Factura.Factura.Amazon.LIN.CAN",
+              "FieldName": "CAN",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "Factura.Factura.Amazon.LIN.POR_DTO",
+              "FieldName": "POR_DTO",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "Factura.Factura.Amazon.LIN.DSC",
+              "FieldName": "DSC",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "Factura.Factura.Amazon.LIN.TIP_IVA",
+              "FieldName": "TIP_IVA",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "Factura.Factura.Amazon.LIN.APL_RET_IRP",
+              "FieldName": "APL_RET_IRP",
+              "IsMultiValue": false,
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#cb926e"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "4"
             }
           ]
         }
