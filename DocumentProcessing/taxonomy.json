@@ -35,8 +35,8 @@
           "FieldId": "Factura.Factura.Endesa.FCH",
           "FieldName": "FCH",
           "IsMultiValue": false,
-          "Type": "Date",
-          "DeriveFieldsFormat": "dd/MM/yyyy",
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
           "Metadata": [
@@ -54,7 +54,7 @@
           "FieldId": "Factura.Factura.Endesa.FCH_REC",
           "FieldName": "FCH_REC",
           "IsMultiValue": false,
-          "Type": "Date",
+          "Type": "Text",
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
@@ -282,7 +282,7 @@
           "FieldId": "Factura.Factura.Endesa.FPG",
           "FieldName": "FPG",
           "IsMultiValue": false,
-          "Type": "Number",
+          "Type": "Text",
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
@@ -301,7 +301,7 @@
           "FieldId": "Factura.Factura.Endesa.POR_DTO",
           "FieldName": "POR_DTO",
           "IsMultiValue": false,
-          "Type": "Number",
+          "Type": "Text",
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
@@ -317,8 +317,8 @@
           ]
         },
         {
-          "FieldId": "Factura.Factura.Endesa.PDF_URL",
-          "FieldName": "PDF_URL",
+          "FieldId": "Factura.Factura.Endesa.PDF_B64",
+          "FieldName": "PDF_B64",
           "IsMultiValue": false,
           "Type": "Text",
           "DeriveFieldsFormat": "",
@@ -327,11 +327,11 @@
           "Metadata": [
             {
               "Key": "Color",
-              "Value": "#44b4ff"
+              "Value": "#5522cf"
             },
             {
               "Key": "Hotkey",
-              "Value": "1"
+              "Value": "6"
             }
           ]
         },
